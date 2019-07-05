@@ -3,7 +3,7 @@ def nyc_pigeon_organizer(data)
   data.each do |attrib, value|
     value.each do|desc, list|
     lost.each do|name|
-      name_data = "#{name}"
+      
       if sorted_data[name_data]
         if sorted_data[name_data[attrib]]
           sorted_data[name_data[attrib]]+= [desc]
