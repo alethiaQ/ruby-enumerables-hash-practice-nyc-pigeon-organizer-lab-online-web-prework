@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
           sorted_data[name][attrib]= []
         end
         
-        sorted_data[name][attrib]
+        sorted_data[name][attrib] << 
         
       end #name loop
     end #desc loop
