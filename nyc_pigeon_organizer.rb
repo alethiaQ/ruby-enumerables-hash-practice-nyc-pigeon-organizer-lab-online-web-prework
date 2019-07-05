@@ -4,7 +4,8 @@ def nyc_pigeon_organizer(data)
     value.each do|desc, list|
     lost.each do|name|
       
-      if sorted_data[name_data]
+      if !sorted_data[name_data]
+        
         if sorted_data[name_data[attrib]]
           sorted_data[name_data[attrib]]+= [desc]
         else 
