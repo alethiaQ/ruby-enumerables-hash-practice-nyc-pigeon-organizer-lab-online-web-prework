@@ -1,6 +1,6 @@
 def nyc_pigeon_organizer(data)
   sorted_data = {}
-  data.each do|attrib|
+  data.each do |attrib, value|
     data[attrib].each do|desc|
     desc.each do|name|
       name_data = "#{name}"
