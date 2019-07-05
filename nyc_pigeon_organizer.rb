@@ -12,8 +12,6 @@ def nyc_pigeon_organizer(data)
         end
         
         
-    
-     
         
       end #name loop
     end #desc loop
