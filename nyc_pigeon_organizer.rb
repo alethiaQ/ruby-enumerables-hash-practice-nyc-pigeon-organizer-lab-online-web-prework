@@ -9,7 +9,8 @@ def nyc_pigeon_organizer(data)
       end
         if !sorted_data[name][attrib]
           sorted_data[name][attrib]= []
-        else 
+        end
+        
           sorted_data[name_data] += {
             attrib => [desc]
           }
